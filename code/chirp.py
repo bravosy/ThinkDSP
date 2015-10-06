@@ -11,8 +11,7 @@ import math
 import numpy
 
 import thinkdsp
-import thinkplot
-
+import thinkplo
 import matplotlib.pyplot as pyplot
 
 PI2 = math.pi * 2
@@ -61,7 +60,7 @@ def discontinuity(num_periods=30, hamming=False):
     print(len(wave.ys), wave.ys[0], wave.ys[-1])
     spectrum = wave.make_spectrum()
     spectrum.plot(high=60)
-
+# this is for test, no use.
 
 def three_spectrums():    
     """Makes a plot showing three spectrums for a sinusoid.
